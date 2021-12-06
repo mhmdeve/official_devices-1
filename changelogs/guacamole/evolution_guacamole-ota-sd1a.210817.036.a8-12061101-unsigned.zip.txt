@@ -1,0 +1,3 @@
+Updated Carrier Configs
+Remapped Status Bar Padding
+Few more bugs fixed and Added more to fix later

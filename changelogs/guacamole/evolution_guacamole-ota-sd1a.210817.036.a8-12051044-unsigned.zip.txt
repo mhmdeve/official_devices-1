@@ -1,0 +1,6 @@
+Added OTA support
+Added more fonts
+Fixed Fast charging
+Added Support for Warp Charging
+Improved FPS in Games
+Added Unlimited Google Photos Backup (Not Testing, May or may not work)
