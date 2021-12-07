@@ -1,0 +1,2 @@
+Fixed OTA Bug
+More fixed Related to ROM and Device
