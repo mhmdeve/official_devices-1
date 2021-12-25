@@ -1,0 +1,8 @@
+- Updated Kernel
+- Based On latest OP firmware
+- Updated Security Patch to DEC.
+- Changed FOD Color to White
+- More fast FP unlock
+- Improved Status Bar padding
+- A lot of device side improvement(Check at my git @mhmdeve)
+- NOTE: I forget alooooot of change logs, But the Build is so Stable now

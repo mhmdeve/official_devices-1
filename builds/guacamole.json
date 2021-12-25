@@ -1,17 +1,17 @@
 {
-   "datetime": 1638788325,
+   "datetime": 1639458206,
    "donate_url": "https://patreon.com/mhmdeveloper",
    "error": false,
-   "filehash": "08530fd9a20f353531a8fe4ca30cc96a",
-   "filename": "evolution_guacamole-ota-sd1a.210817.036.a8-12070836-unsigned.zip",
+   "filehash": "e31bc52e723062fbb03d7ccc0d13db27",
+   "filename": "evolution_guacamole-ota-sq1d.211205.016.a1-12242311-unsigned.zip",
    "forum_url": "https://forum.xda-developers.com/t/rom-12-guacamole-unofficial-evolution-x-snow-oneplus-7-pro.4367829/",
-   "id": "84d8ea74226da42f90002d52789e47aa2b919e80be53905d11872a61e435d490",
+   "id": "672d6626bd04d4b9c818e7ceeb92597308c2fcb738cd5a4f8a7eaa033940d947",
    "maintainer": "Master",
    "maintainer_url": "https://forum.xda-developers.com/m/mhmdeveloper.7512771/",
    "news_url": "https://t.me/fluidos_guacamole",
-   "size": 1447443479,
+   "size": 1385483249,
    "telegram_username": "mhmdeveloper",
-   "url": "https://sourceforge.net/projects/evolutionx-guacamole/files/evolution_guacamole-ota-sd1a.210817.036.a8-12070836-unsigned.zip/download",
+   "url": "https://sourceforge.net/projects/evolutionx-guacamole/files/evolution_guacamole-ota-sq1d.211205.016.a1-12242311-unsigned.zip/download",
    "version": "Twelve",
    "website_url": "https://evolution-x.org"
 }
