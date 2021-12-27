@@ -1,0 +1,6 @@
+Fixed Bluetooth and HotSpot Issues
+Add TouchGesture
+Improved Battery
+Added more feature (Check In Evo Extra)
+Fixed Android Auto
+Many more...
