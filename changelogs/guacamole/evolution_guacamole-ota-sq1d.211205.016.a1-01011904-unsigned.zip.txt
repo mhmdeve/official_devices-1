@@ -1,0 +1,12 @@
+Added OnePlus Apps Including Camera
+Fixed Stability issues
+Improved FP Speed
+New AlterSlider Notification Icons
+Added & Different Icons for QS tiles
+Fixed Banking apps issues
+Fixed Google Photos Unlimited BackUp
+Imported New Oneplus Settings
+Add Alert Slider Customization
+Better TouchScreen Gesture
+Fixed AOD FIngerprint Unlock
+Note: Special Thanks to @A_rccc, @AllisonHsu, @Daxterboy for testing
