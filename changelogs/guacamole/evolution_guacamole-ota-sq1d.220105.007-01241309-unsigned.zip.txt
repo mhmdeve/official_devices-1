@@ -1,0 +1,11 @@
+FOD Improvement
+Enabled FOD animation, Change Color and Icon changing
+Fixed HDR related issues
+OTA is back
+Added option to switch volume panel to left/right
+Added Quick Tap on Back (See Gesture Section)
+Added Double Tab to Check Notification
+Added more Icons In The Evolver
+Explore The Evolver section to get new features.
+Special Thanks to @butrameich for Providing GCP 
+Thanks to all Testers Including @saVokaVo, @A_rccc, @Pinutz75
