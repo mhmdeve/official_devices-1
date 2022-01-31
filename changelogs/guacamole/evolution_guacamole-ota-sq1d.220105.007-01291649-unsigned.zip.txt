@@ -1,0 +1,6 @@
+Added Back Color Profile But Saturation Option is Still Buggy.
+Replaced OnePlus Dolby with MotoDolby
+Fixed Lag during games
+Fixed High Brightness issues on FOD
+Based On latest Source from EVO
+Added Options to set the status bar padding(EVO)
