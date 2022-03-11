@@ -1,0 +1,1274 @@
+=======================
+     2022/03/11
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+9b64d4c00 sign_target_files_apks: Fix avbtool usage
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+8b845a4856 av: support per-app volume [1/3]
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+56daf1623e79 Double tap to wake on doze [1/2]
+7111a48870d0 base: Double tap to trigger doze [1/2]
+8e4e7409a778 Link dialog radius to config_dialogCornerRadius
+930a41422128 SystemUI: use simple check for isFaceDisabled
+aa25b3d444f8 FaceUnlock: Fixup for 12L
+5c227a7afe9f WalletActivity: Don't explicitly request face auth
+1d26ada451b7 Reset face auth on occluding app when authenticated
+5fa46af4e469 FaceService: Allow our face unlock to be used on third-party apps
+6c81eb950f89 [1/2] Allow changing face unlock method when locked
+262c865ff26f base: Remove AOSP translations of face vendor error messages
+c766e314b371 SystemUI: Tell user when face unlock detection is running
+b7db3f155827 KeyguardBouncer: Don't delay showing if face auth running
+262e269ffacf base: do not use new lockscreen layout for bypass
+61dc1fe0dca4 Add idle lockout message for FaceUnlock
+df0b75f9b779 SystemUI: Allow listening for face only on pin/pass view
+81c7122b7768 Initial import of Face Unlock for S
+38ad36b42cca SystemUI: Hide VoLTE icon when VoWiFi is available
+ad3862c00623 Fix voLTE and voWiFI
+31c0b06de290 voWiFi: Remove isWide from MobileIconGroup
+427622a30f48 SystemUI: Hide mobile data indicator when VoLTE icon enabled
+8b055e4fb51c SystemUI: Fix issues with VoWiFi icon
+10e3eb04895b SystemUI: Optional VoWiFi icon [1/2]
+37ddef68d737 SystemUI: support VoWIFI icons
+81da7fbedcf3 Add VOLTE icon toggle [1/2]
+8f59679dcf71 [SQUASH] SystemUI: Add support for displaying Volte icon
+feffce920691 BatteryMeterView: Forced show percents on charging.
+50ed45765c70 Battery: add dotted circle style (1/2)
+4baf002ed034 Bring back good ol' circle battery style
+f5d37f972dc3 SystemUI: StatusBarIconController: remove unnecessary global variable for notification count visibility
+6e82fd00e878 SystemUI: improve mobile data style switch logic
+f514e56f0ef2 SystemUI: old style mobile data indicators [1/2]
+5c3cfe7cad56 SystemUI: refactor notification counter
+ee20d74e474a SystemUI: Forward-port notification counters [1/2]
+62e2974a3ab6 Allow using 4G icon instead of LTE [1/2]
+378b27246735 Screen off animations [1/2]
+4e733a5fea82 PixelPropsUtils: Spoof Snapchat
+be5013125f76 QS: Add The Evolver Tile.
+b0b553d2a949 SystemUI: Drop colorkt-based dynamic theme engine for Monet
+e2e68c6a1870 SystemUI: Improve Secure QS tile behaviour toggle [1/2]
+4cdba367a74d Make "Require unlocking to use sensitive QS tiles" optional [1/2]
+ca067cbeacf8 base: Add navbar layout inversion tuning [1/2]
+fe687b82a803 SystemUI: allow changing the length of gesture navbar [1/2]
+fe12e29513df base: allow hiding navbar [1/3]
+5615425b4e8b base: TtsEngines: fix yet another NPE
+a19d3944cf24 SystemUI: PeopleSpaceWidgetManager: don't spam logcat
+a583b1504023 base: support per-app volume [2/3]
+4489f3765f5d Adapt tuner prefs to S settings style
+e0975898c955 Fingerprints: Increase MAX_FAILED_ATTEMPTS
+62bd6f87674f Camera: Don't crash when trying to disable shutter sound
+59b135b98434 Guard in short-circuit evaluations for stringSplit methods.
+0e5db9ff8fd1 Camera: Don't throw exceptions when value pairs have spaces in them
+ac03cce8b35b Camera: Add feature extensions
+d6b0ff3f3b74 QuickStatusBarHeader: don't disable estimate mode for centered notch devices
+d425fc92b7c0 charging: Allow using vibration without sounds
+c4204a1efc70 base: Live Volume Steps [1/2]
+93d52adaa2bd Fingerprint authentication vibration [1/2]
+009dc6f11e48 SystemUI: Add case to quick pull down status bar anywhere
+93afb7c6e453 Add QS pull down with one finger [1/2]
+6ef5fd4350b8 base: Hide power menu on secure lockscreen [1/2]
+788a6f231604 QSTiles: Re-write Sync tile in Kotlin
+3bc8afd4959a SystemUI: QS: Add On-The-Go Tile
+8e38deb9bde5 SystemUI: On-The-Go Mode (1/2)
+6985b79dfc32 Implement partial screenshot for screenshot power menu long press
+c38f2ad878a1 Powermenu Torch: Allow simultaneous access
+c872d93b5d23 Use flow layout for advanced power menu aswell
+e7658a719fdd Revert "Add screenshot back to power menu for some devices"
+2cc9af783ebf Powermenu Torch option [1/2]
+20dc095de0e4 Powermenu: Separate Advanced Reboot actions from Restart
+f456b19bb26f Pimp the power menu out [1/2]
+df8a62b6baa5 Powermenu: advanced reboot toggle - android 12
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+b3f3ce2 manifest: Drop ProtonAOSP Monet repos
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+04a155e Evolver: Cleanup for 12.1
+de78672 Evolver: Re-implement battery styles (2/2)
+a8a73b4 Evolver: Add navbar layout inversion tuning [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+3136ce2332 Settings: DoubleTapGesture: Use new material-you illustration preference
+2774303176 Settings: Double tap to trigger doze [2/2]
+aa043a9479 Settings: Allow using face as auth method for apps
+38b494b9a2 [2/2] Allow changing face unlock method when locked
+03cd843534 Initial import of Face Unlock for S
+0a0e072331 Settings: SystemNavigationGestureSettings: fix back gesture edge insets resetting back when fullscreen gestures is enabled
+51f59f186a Settings: allow changing the length of gesture navbar [2/2]
+702d65ca9c Settings: enable only one navbar overlay at a time
+4a471f28b4 Settings: GestureNavigationSettingsFragment: remove redundant putInt
+9be6c3948f Settings: allow hiding navbar [3/3]
+ce4167762b Settings: update SUW theming for 12
+be354c8f35 AppVolumeSlice: Allow querying icon of apps installed by any user
+f65ca8a499 Settings: support per-app volume [3/3]
+1e7ce39c42 SoundSettings: Add charging vibration settings
+7692e73cfb Settings: import missing lottie animations
+4799d36503 Settings: drawable: add missing drawable for dt2 open camera
+e977823861 Settings: Allow editing all APNs and APN types
+c8f4138ae5 Settings: Address a memory leak
+481654ce0b Settings: fix rest of the edit menu icon tint
+ccabff363f Settings: Support dark mode on 'Vision Settings'
+713cf453da fixup: update dummy lottie animation to avoid crash
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+b4ee089f rro_overlays: Import drawables from Lawnicons
+1b6118db version: Uprev to 6.2
+c4759610 evolution: overlay: Set biometrics colors to accent.
+16273844 overlay: Default to night mode
+
+
+=======================
+     2022/03/10
+=======================
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+a590aafabd0c Use new gradient dialog also for recovery/factory reset action
+baff3ef19024 Make Quick Unlock compatible with long PIN/Password [1/2]
+6f4f7c11da57 Forward port CM Screen Security settings (1/2)
+2c3c5ef390b7 Keyguard: Forward port lockscreen quick unlock (1/2)
+c36353c72829 Keyguard: Add option to scramble pin layout when unlocking (2/2)
+b8f8edd7698f Add back button to demo mode fragment
+e1c02525b707 Disable FP lockouts
+708ded36af31 Make all activities resizable
+a3557be7bf24 [SQUASH] base: introduce app lock [1/4]
+7963f871d780 SystemUI: Extend reboot tile to add power off
+c0f3e1498c17 SystemUI: Add Reboot/Recovery QS Tile
+d3c82d5deb72 base: Fix net traffic view being white on QQS Header
+8b67468333eb SystemUI: Reduce statusbar network speed margins
+164cb40a2e9b SystemUI: NetworkTraffic: Minor refinements
+37c7da0981c5 SystemUI: Fix NetworkTraffic UI on expanded QS
+6911955f6d93 SystemUI: Move NetworkTraffic in QS header
+46654b7fed83 NetworkTrafficSB: Better workaround for RequestLayout() spam
+9a541ce865a9 NetworkTraffic: Remove screen on/off triggers
+eb0505e288ae StatubarIconList: Fix Network traffic visibility on overlayChange()
+0725ef3e824c NetworkTraffic: Fix speed format for 10*KB
+f4aa13f2ab3b Network Traffic: Allow to choose display mode [1/2]
+e8a426a8d25c Network Traffic: Customize refresh interval [1/2]
+edcc86b6c6f5 SystemUI: Improve Network Traffic
+0ca88f545d4e Network Traffic: remove statusbar animation
+376bc9bb3d2a Traffic indicators: Prevent logspam caused by improperly calling requestLayout()
+ef5100a50515 Traffic indicators: don't show two instances in expanded statusbar
+204133a2d238 Traffic indicators: hide in the keyguard
+92502306d50f Traffic indicators: add properly to statusbar icons
+9131acd8123e Traffic indicators: use smaller and bold fonts in expanded statusbar
+faa5f710539a Traffic indicators: code cleanup and improvements
+9ae518115db8 Network Traffic: Adjust size/text style for extended statusbar
+51a1a23e01ba Network Traffic: Refactor text formatting
+c4f9f8605f50 Network Traffic: OOS style network traffic indicator
+97dd3d5461ad Network Traffic: Move network indicator to the right
+1f494a7f8143 Network Traffic: Bring back traffic indicator for all
+1e44e149008a Network traffic: fix indicator not hiding on lost connection
+09b1f9473655 Net monitor: fix text color on light theme
+a995c3f19bd0 base: Move net monitor to expanded statusbar header
+9fea44452af1 Statusbar net monitor: stop the handler if screen is off
+d109d8825588 base: Network Traffic [1/2]
+ade411743e75 AudioDeviceInventory: launch default music player on headset connect [1/2]
+d1994fad4138 FingerprintManager: Fix NPE due to sensorProps
+54c9d8db0cbd DefaultPermissionGrant: Fix google search crash
+10f989ee4082 display: Don't spam log when display state changes
+114d53759267 Lazy load Properties::isDrawingEnabled.
+1ff832782ca7 Backport 'Add ability to disable GL draws'.
+2f2435c5ef63 TunerService: Add parseInteger failsafe method
+6bc53a897875 TunerServiceImpl: Blacklist Settings.System from tuner reset
+839bfe3fe898 SystemUI: tuner: Allow Tuner API for System settings
+d4991bb5bf5e TunerService: Prevent NPE with tunable
+0fc8550aca90 Tuner: Don't clear out prefs, it's not disabled
+fdb807e77e95 base: SystemUI: enable tuner and show in Settings
+08e2419ee424 privapp-permissions: Grant missing TelephonyProvider perm.
+6c4b876d0c5a hwui: Silence Davey logs for now
+11755cee4ae9 VolumeDialog: notifyVisible after the volume panel is fully hidden
+0856df6e00e4 Fix build warning of Supported source version being RELEASE_8
+263fcc5b9b20 audio: Discard QTI only codecs when AOSP BT stack is in use
+1cdc1a15ad8d !fixup Bluetooth: Update Bluetooth permissions for internal APIS. (2/4)
+d05120edc979 Check for a2dp profile when removing stale connection events
+5dcc29aaa38b AudioService: Music resumed to speaker after call
+7b29531098d4 BT: Add entry for MCP Service in Frameworks
+3877c60ba18a BT: Add APIs to dynamically control Active profile
+1c11433861d3 Update Bluetooth permissions for VCP APIS (1/3)
+a55542d16021 VCP: frameworks and settingsLib changes for VCP Profile
+5539985e0c33 Bluetooth: Broadcast UI: Changes to existing files
+54981f89545d BT: API to update quiet mode status in Adapter service [2/3]
+093cf93a81af fixup! Bluetooth: Add BC profile entry
+767d6816e52b Improve bluetooth strings
+f8d7ac24f912 BT: Relocate A2DP codec strings for translation
+745127badcc3 Bluetooth: Add constructor for sending address type
+16dc2367798c A2dpSrc: Align legacy codec enumeration with AOSP(4/7)
+be657ade42fd Revert "Matching codec index between frameworks and stack"
+cef8aba76698 hfp: define STATE_AUDIO_DISCONNECTING audio state
+318a97edfc77 DeviceGroup: UI frameworks changes
+2a7c3057b209 Group-UI: UI frameworks changes
+4cca1c92a679 Bluetooth: Add BC profile entry
+3b7428d726c4 Bluetooth: Check AdapterService instance before getState.
+07ea56146791 Use BLUETOOTH_CONNECT permission instead of legacy permission
+7c6d48f88145 Bluetooth: Update Bluetooth permissions for internal APIS. (2/4)
+d363133931b8 DeviceGroup: Frameworks changes (for dual mode devices).
+85b606624512 Bluetooth: Ensure BLE/BT is turned on before Bonding.
+6aa01f46693b Add Broadcast profile id
+d9c3cdf1b0d2 DeviceGroup: Framework changes for Group Device operations.
+6f168bc72911 BT build fixes
+718eeec541d6 Periodic Advertisment Sync Transfer feature support
+3be7aa6d6819 Add LC3 codec type.
+b39301a5dcd1 Audio: Add support for lc3 codec.
+b23d3861c0b1 Add callback onA2dpCodecConfigChanged
+b7957f62f16c Audio: Do not disconnect profiles till Bluetooth Off
+cd5984848fa9 Audio: use cached BT codec info during disconnecting
+23fb7272bf4f Audio: Update current active bt device of mApmConnectedDevices.
+de08df326e26 BT-Audio: Keep track of Active TWS+ EB device in BTHelper
+297a3cd5119d BLE: Fix NPE during start advertising
+da8f051d950c Fix build errors
+3256c4ea7acd Enable codec change request when mode changes in aptX-adaptive
+c376a411d25d Keep a null check before accessing the BluetoothA2dpWrapper APIs.
+ddb5d33c539b Bluetooth: Fix for out of bound exception
+07a1086cd064 BT Dev: Increase array size for codec selection in Dev Op
+6eb12eecdeb5 Keep the BluetoothHeadset finalize() method protected
+1fdc9e8ea0bb Bluetooth: Fix for Global reference table overflow issue[1/2]
+b0292842a233 BT: Add new intent to broadcast IOT device details
+1f90fd4b7335 BT_Audio: Updated Check for TWS+ switch
+d762f7f90c70 TWS_A2DP: Handle active device change between TWS+ earbuds
+425a416af089 audio: Add support for APTX TWSP audio codec
+321854f0f1b1 audio: Add support for audio extended codecs
+bbff789b3414 Use BluetoothUtils instead of Utils
+79fd43fb2640 GAP: Handle the race condition cases in auto connect logic
+e749ba03c211 Obex: Squashed commit of the following
+b0720519418c BLE: Add support for Group AD Type based scan filtering.
+4b9aa81c0118 Add scan filter for Transport Discovery data
+39825c93241d Support CALLBACK_TYPE_SENSOR_ROUTING
+b5a38413ccec Add support for Transport discovery AD type (1/2)
+5eb50c6db5e9 Bluetooth: TWSP: Support Battery Status information display
+b8e0aa5f65f9 BT: Send info if call is CS type from telecomm service to BT apps.
+80e79d413594 GAP: Reset bondingInitiatedLocally flag(1/3)
+28ef115450f4 Bluetooth-TWS: Disable outgoing connection to 2nd earbud
+0fdec60a0724 Bluetooth-TWS: Disable outgoing connection for 2nd earbud.
+357feedc9d34 Bluetooth: Rename bluetooth property to support new P Treble rules
+d7551e211a59 Bluetooth: Unpair both earbuds on unpair.
+e485fb9930a5 Revert the change: AudioService: remove dead BT code.
+45e42039db97 Bluetooth: Add SDK API support for TWS feature (2)
+f3de1cf3d38a TWS-A2DP: Add TWS+ codec to DevUI support
+5dc0b1d9fece BT: Adding aptX-Adaptive codec entry to Framework
+b3c2bc8810a2 Add BluetoothQualityReport class(1/2)
+e450b31d83ff Implement click to take partial screenshot [1/2]
+4d77997ab604 base: Volume Rocker Wake [1/2]
+b32f89ea656e SystemUI: Add GamingMode tile
+d21cf6a66bc5 SystemUI: Add SystemSetting class analogous to SecureSetting
+4539bcfe1df4 core: Refactor Pixel 2021 features availability
+d342041ed849 core: Rework the ph0t0s features blacklist
+abbbc1ca4904 core: Extend Pixel experience Blacklist For Google Photos
+7014c9b6d37d core: Blacklist P21 midyear, P20, P20 midyear experience system feature from Google Photos
+e982427d70a5 core: Blacklist P21 experience system feature from Google Photos
+8aec6ade79b7 stop Microsoft apps from crashing without INTERNET permission
+da3541878ae8 PixelPropsUtils: Whitelist Google Dialer
+5ff03efb7dbe PixelPropsUtils: Whitelist YouTube app
+910d0078e730 PixelPropsUtils: Invite streaming apps to the party
+618d294990a5 PixelPropsUtils: Remove Pubg New State from GamesProps
+027471ec9fa4 PixelPropsUtils: Add GamesProps
+b60cea593f7e PixelPropsUtils: avoid spoofing Shamim GCam
+136545fed2cd PixelPropsUtils: bring samsung accessory service to the list
+6cfad1061b02 PixelPropsUtils: add galaxy watch 4 plugin to spoof list
+e2ebb1552476 PixelPropsUtils: Spoof Pixel XL for Samsung wearables
+39fa5dd40748 PixelPropsUtils: Set Pixel 5 as spoof for more Google apps
+603bf2ed0b17 PixelPropsUtils: Bypass hw attestation on newer pixel devices
+a202bd7f0e95 PixelPropsUtils: Update fingerprints to feb release
+6723abe2a7b0 PixelPropsUtils: remove spoofing for currently supported Pixels
+2e716eaad4af PixelPropsUtils: Update fingerprints to January release
+c6e2ad90bb73 PixelPropsUtils: Avoid spoofing props for gcam and mods
+7dae301fae16 PixelPropsUtils: Spoof Pixel XL for Google Photos
+7b9bdeb0c89c PixelPropsUtils: Add chrome into extra packages list
+b2faf558ac80 PixelPropsUtils: Update fingerprints to december release
+a7620efcca6a PixelPropsUtils: Whitelist GoogleCamera
+1f8770c8790b PixelPropsUtils: Use redfin props for some apps
+45f1b68ca201 PixelPropsUtils: Update props to SD1A.210817.036
+e3fa26e80ce4 PixelPropsUtils: Use Build.VERSION.INCREMENTAL
+1d0ddde39717 PixelPropsUtils: Set userdebug as Build.TYPE for GMS
+69ec39995aa6 keystore: Block key attestation for SafetyNet
+b8a8c31807e6 PixelPropsUtils: Rewrite logic
+d43a43480097 PixelPropsUtils: Use Pixel 6 props
+62c7a7e00879 Introduce PixelPropsUtils
+4363dbbc4012 base: ScreenOff torch: Allow to disable torch when screen is on
+289b7236fd95 base: Allow doubletap/longpress power to toggle torch [1/2]
+c14e93255fad BatteryService: Add support for OEM fast charger detection
+89d3f368bc7f DozeSensors: only use proximity sensor if supported
+ab0049c442b0 Calm down attention service logspam
+4d3e1fa22ae1 SystemUI: AmbientTile: Default the setting to 1
+91e03a3fe19a SystemUI: AmbientTile: Actually start using SecureSetting
+08a65c30f4f3 SystemUI: AmbientTile: Use SecureSetting to change doze setting
+49785f90d385 SystemUI: AmbientTile: Don't hardcode display settings intent
+e4b8798fab62 SystemUI: QS: SoundTile: Don't toggle DND
+e9288f8aa93e SystemUI: Update SoundTile
+bfaa7bffccfa base: Double tap to sleep on statusbar [1/2]
+ee37c6bd9067 base: Double tap to sleep on lockscreen [1/2]
+14ee26611a12 incall vibration options [1/3]
+2a53176d6c04 EvolutionUtils: Add isVoiceCapableMethod for in-call vibrations
+2bbe17f4c152 SystemUI: Add heads up tile
+6093b29eae33 Less boring heads up option: always show alarm clock headsup
+a7508a0b3252 Less boring heads up option [1/2]
+a76228494efa Allow to suppress notifications sound/vibration if screen is ON [1/2]
+03f02cab3b25 base: SystemUI: add VPN to the icon blacklist in tuner
+5e61225884a5 fwb: Seperate statusbar from tuner and launch externally
+68a67cb83fa3 SettingsLib: Update 4G+ icon to Silk design as well
+f31b984231c9 ParcelFileDescriptor: Stop the panic
+57a238a6b7b7 Crash occured due to null pointer exception.
+2e3b6aa180b5 frameworks: Fix null pointer Issue
+dbe0029d6709 view: add null check for dispatch touch view
+b4366f1e23e7 Allow APK signature scheme v1 for API 30+ apps
+fb8aacea6272 Disable cursor drag by default for editable TextViews
+8a99e95ea640 Fix NPE with void android.view.VelocityTracker.clear()
+8d8b152e8dac Turn off some debugs
+3241c2079060 Phone ringtone setting for Multi SIM device [1/3]
+7f860dbc6c1a base: Remove restrictions for system audio record [1/2]
+929ec491fe99 SystemUI: Display a toast when a screenshot is deleted
+6046499e52c9 ScreenshotHelper: ignore timeout when taking partial screenshots
+6385887b291b Screenshot: inline trigger with AOSP values
+25a8b5f80b5a ScreenshotTile: Make default state inactive
+8128ec5499d6 ScreenshotTile: Use secondary label to indicate mode
+6c0961628b41 Screenshot tile: improve code
+1fcae886e216 Add partial/full screenshot QS tile
+9af58af2ab1b Add api to take screenshots
+27756e85af66 Add a sendKeycode api to EvolutionUtils
+2403de7eb40a base: Install seccomp filter even if selinux is permissive
+edb96016c89b Add Sound tile to Quick Settings
+04617f4dd30f QS: Add Sync QS Tile
+210f22edc438 SystemUI: Add USB Tether tile
+e8ee59734bd4 SystemUI: Add AmbientDisplay tile
+366169831798 Adapt adapt flashlight api to 12L
+5b1eb38db3a0 SystemUI: adapt flashlight api to R
+574f55e859b3 SystemUI: Fix shutter sound
+de5415481d7e SystemUI: Screenshots: Refactor shutter sound logic
+b7d77f5aea27 base: allow disable of screenshot shutter sound [1/2]
+d945d20857d0 SystemUI: Adapt screenshot sound to ringer modes
+7d57e309b454 frameworks: Add unlinked ringtone and notification volumes
+dd60dc7e9755 NavigationModeController: Mute debug logging.
+52eced6bfb9e SystemUI: Fix an NPE in KeyguardMessageArea
+223c8e2a8212 SystemUI: Limit keyguard charging stats updates
+390b24a50fb7 SystemUI: Keyguard: Check for a null errString
+afe770b476d4 DefaultPermissionGrantPolicy: Silence harmless errors
+d1e8d661524e base: Add rounded corners to activity open/close animation
+49001b2b9656 base: Smoother Upload and Download Animation
+a97fe16feebc ViewConfiguration: Set scroll friction to 0.012
+21f05b29c6c1 base: Make the loading "spinner" animation smoother
+fa9ed270ddcb AbsListView: Improve scrolling cache
+d49dcba22382 SystemUI: Remove excess margin in few statusbar icons
+e54a0ce2ce68 SystemUI: Fix uneven DND icon padding in status bar
+2e21ecafd79c base: Forward Port Volume Long Press Skip Tracks [1/2]
+5272b0664ffe SystemUI: Add caffeine QS tile
+853648942a64 core: Remove @SystemApi annotation for VOLUME_HUSH_CYCLE.
+f0479abb7b16 base: Add option to cycle through ringer modes [1/2]
+a86b8e68d945 Fix an instance of -Wunused-but-set-variable.
+a2615b90edd8 Fix full draw  power usage increase issue
+bae6450045f0 Fix BatteryStats counts foreground activity time.
+227824e4c94f HwRemoteBinder: fix race for concurrent binderDied
+1bd8bfed894e SystemUI: Update keyguard clock metrics for GSans Clock font
+6edb8cb5c902 SystemUI: Speed up actions expansion animation
+9ff94f80581e SystemUI: Reduce screenshot dismiss delay to 3 seconds
+f73d08a135b9 SystemUI: Introduce Adaptive Playback [1/2]
+cf51d256a4df SystemUI: Add colors to assistant animation
+ba8cdc3a1a5e SystemUI: Revert secondary home handle
+80d546323f92 base: Add three-fingers-swipe to screenshot [1/2]
+b3ea2d7b881a zygote: Enable USAP by default for S.
+8c761b2ee12a SettingsProvider: Resolve package name that requires permission
+b9af30426c11 Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+160dd7283a15 Add missing INTERACT_ACROSS_USERS_FULL permission
+d6cb9c8319b6 Kill off provider info logspam
+2cc60c6fa86a Reduce log verbosity: Don't spam logcat
+1c65c03c95ef KernelCpuUidTimeReader: Decrease log level on non-eng builds
+5f4ed6b29c82 Suppress FingerprintManager logspam
+ba30c109dd2b aapt: Default to 0 compression ratio
+038e97a01491 NightLight: Allow lower temperatures
+1a3523bf8216 base: Change dividers from Holo Blue to Pixel Blue
+3e444a23ffff aapt2: silence positional arguments warnings
+26ff768ff427 MountService: Prevent NPE with DropBoxManager
+848f26a5c6b2 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+59d16c482ea1 RecoverySystem: make the package readable before checking capex
+24a0622cbe94 RefreshRatePolicy: set both min and max refresh rate when camera is used
+b633b046aed4 Initial import of lineagehw
+d650dfa7d995 Allow to disable battery light
+bf79153775e1 BatteryService: Mod: Check against all conditions
+eb030b4f585a BatteryManager: Mark battery moto mods constants as hidden
+916605720e11 BatteryService: Add support for battery Moto Mods
+7905799bb65a keyguard: Do not trigger a wake up when hiding lockscreen
+07e9fdf72b04 SystemUI: Redraw display cutout on overlay changes
+2243a98bb30f Permissions: Grant Mediascanner access permissions to external storage
+98a3f0daca69 Revert "NotificationShade should animate away on MODE_UNLOCK_COLLAPSING"
+10bb64ad90d0 SystemUI: Use AVCProfileMain for screen recorder
+3d92f86e4f40 SystemUI: Only add GarbageMonitor tile to default tiles on ENG builds
+85cdb995d0ef webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well
+da76a3a71d75 Fix edit button in screenshot share activity
+a81c60ce2a59 AudioService: Remove Analog Dock from fixed-volume devices
+79425e8e52ff Fix bug Device that can't support adoptable storage cannot read the sdcard.
+06ad9d0f397b VolumeDialogImpl: Don't vibrate when volume dialog is not visible
+c9a175d2a744 SystemUI: ic_brightness_*: drawables get surface color
+1556cf08e1f9 Revert "Remove dependency on IME subtype from TSMS"
+7eeb07cf080e Fix NPE for UDFPS devices without HBM
+c2800c87eca4 Allow adjusting screen density to smaller sizes.
+fc5f916eb97e WiredAccessoryManager: Update stream index assignment
+da8d257c0813 WiredAccessoryManager: use dev index from UEventInfo to form devPath
+6d6da507d23d WiredAccessoryManager: Update display port device index
+00a5b464c7a7 WiredAccessoryManager: support for multiple display ports
+15e4d439a286 audio: update WiredAccessoryManager to use ExtconUEventObserver based on events available
+fdbf56541cc4 WiredAccessoryManager: Support for multiple extconn devices
+bd04d136f3e3 WiredAccessoryManager: update extcon file paths
+fc3a8d9f91c6 WiredAccessoryManager: Add support for DisplayPort Audio
+181d7b686c2b Zygote: Fix an issue when empty the usap pool.
+e6f0b4fd10d1 Use tmpArgBuffer correctly when argBuffer is null
+69b0da723a43 Correction in logic of roundend size calculation of SD card
+067217918077 Fallback to global actions if assistant is not available
+1d63d6c5ebdb Statusbar: show vibration icon in collapsed statusbar
+a09ce92e26e4 Disable notification channel warnings by default
+f306cccaf1fb Allow adjusting progress on touch events.
+d4f0ee31edd7 GamingMode: Fix NPE in ActivityManager service
+fa6e2eb52cda base: Add GamingMode support [SQUASHED]
+adaaa6ef82c3 base: add API for disabling gestural navigation
+53b1c65e2cba NavigationModeController: Silence log spam
+96eb0e7fab4d services: LightsService: Mute an annoying error message.
+deeff23411ec GpsNetInitiatedHandler: Disable more debugging
+8c0f7c65f0eb base: PSSSSST! disable some DEBUG logspill
+bae202bcb91f core: Switch to Pasty for copying crash logs
+cb287a81d292 core: Update to new API endpoint for hastebin.
+be37e035a57c core: Switch to Hastebin for copying crash logs
+e029810823bd Add button to AppErrorDialog to upload crash information to dogbin
+c94af0bd287c SystemUI: Add support for persistent usb drive notification.
+cbc607625a5d SystemUI: Allow snoozing SD card notification unconditionally
+e418baa89876 UDFPS: Allow user to disable night light on keyguard
+f9e58adfd4f9 base: Add Multi usb controller for Asus devices
+15e358d28d10 DisplayModeDirector: Make sure we apply refresh rate on startup
+59d45f99597d DisplayModeDirector: Use default refresh rate as min refresh rate
+87e93bceceb1 Allow user to select low power refresh rate [1/2]
+0606bd58de89 base: Allow disabling refresh rate lowering in battery saver
+f50f71a653f1 WifiDisplayController: handle preexisting p2p connection status
+0cf683789af9 Merge changes for launching wifidisplay from system settings
+8120c5c103a3 Add config overlay to force enable multi resolution for camera
+3fa277a5959d CameraManager: HAX for depth sensor on ginkgo [1/2]
+f4acaacc7658 Camera: Clearing exception for Extended Face
+ec913cdda363 Camera: Extend face detection
+8e6c67cadf6f base: Edit persist.camera.privapp.list to match with current property
+231cc46ce76f Select the proper request list size
+44eb0363b3b4 Camera: Ignore torch status update for aux or composite camera
+5c258ecbc48b camera: Skip HFR checks for privileged apps.
+71ab6fdcda29 camera2: Add methods for backward compatibility
+320459050852 CameraManager: Fixup exposing aux camera to apps
+e267cfc934a0 Fix Photosphere/Camera FCs
+dfd1866681a9 Allow sending vendor- or device-specific commands to the camera HAL.
+33c4c06b0ede Camera2: Notify fps as Session Based Parameter
+96a9a12a237d Camera: Skip stream size check for whitelisted apps..
+cec0f215d379 camera: Allow selected camera apps to skip unconfigure
+2b4bd84b0902 Camera: Replace packageblacklist with packageexcludelist
+11338a478692 camera: Support exposing aux camera to apps
+1eaa35ccb4e7 CastTile: Fix availability of Cast Quick Setting Tile
+7a5408ed1182 SystemUI: Name Cellular Tile based on carrier
+aedf870b211e SystemUI: Update keyguard indication margin when Udfps is in use
+a2eaef0f0788 SystemUI: Black theme [1/3]
+548877e52adf ThemeOverlayApplier: Apply wifi and signal icon styles last
+fef6e1385450 ThemeOverlayApplier: Catch a potential NPE.
+29c44780064a Allow changing monet settings from The Evolver [1/2]
+0da3e7c9afc6 Enable lockscreen media artwork even if qs media is enabled
+ca9379a298dc SystemUI: Apply monet to fingerprint authentication ripple animation
+d02a77f075f0 VolumeDialog: Fix live caption tooltip when on left side
+115a71135909 SystemUI: Allow devices override audio panel location
+438809bc9e98 SystemUI: Use same NFC icon as that in QS tile
+22b75e52d046 SystemUI: Add statusbar NFC icon
+7e7beee3a6ce SystemUI: Update NFC tile drawable
+aa24687931f8 SystemUI: Enable NFC tile
+e57ba553d0ae SystemUI: Add powershare QS tile
+d8a1869a298e SystemUI: allow to limit the max framerate of built-in screen recorder
+bafe44398ed2 SystemUI: Allow overlaying max notification icons
+ae7838f7cbc6 BiometricScheduler: Cancel operation if not idle
+9b19c01c0e79 Biometrics: Allow disabling of fingerprint cleanups
+65df95d4879a PackageManager: Add configuration to specify vendor platform signatures
+14e692ed36d9 Fix isWiFi for API deprecations
+7b51d9a1293a Utils: Method to detect a notch'd device
+8ead09ada0b8 Add api to toggle flashlight and check if device has flashlight
+7da47b04d249 EvolutionUtils: Add isAppInstalled
+ee9f8de22a9e Add isPackageInstalled boolean
+1e0936ede347 EvolutionUtils: Add isAvailableApp method
+c209bc6ab636 EvolutionUtils: Add isChinese Language
+91482566779a EvolutionUtils: Add isWiFi only Method
+34f69eb061c8 Re-add in our device utils
+1225503104c2 Screenshot: Add delete action chip intent
+bf9dcbabb1ff SystemUI: Add delete action to screen recorder notification
+9d2c9cbcb4ee SettingLib: Add deep sleep info to uptime preference
+16ee6c52b9ef Set alert dialog message to use system font
+15b6b33799d5 SystemUI: Update Bluetooth battery level assets.
+e42e8ced2cdf Add a few more to the Bluetooth device filter.
+42c49688f853 Add improvements to statusbar Bluetooth battery level.
+b0fc859c4883 SystemUI: Show bluetooth battery level when available
+a3954a7412d3 frameworks/base: Support for third party NFC features and extensions
+40aa34e0d079 fwb: webview: Add appropriate logging
+3c53c5448bd3 sysUI: remove dup perm
+8ac18afca9c3 SystemUI: Update string for add tiles with one click
+40f1adda14c3 base: SystemUI: Allow user to add/remove QS with one click
+1c586d69a7dc Screenshot: Append app name to filename
+6af8d91e5e25 Add "android.permission.READ_PHONE_STATE" to manifest
+9f4add49427c Enable Binder Proxy Tracking by Uid only on eng builds
+0c4157b782b4 SystemUI: Disable heads up debugging on user builds
+88d5634e25c2 SystemUI: use google sans font for lockscreen clock
+5c6811db4096 CarrierConfigManager: Enable LTE+ icon
+d0b36841c58d base: Switch to ro.build.version.incremental instead of ro.build.date
+cee35469a0f6 base: One more Build.FINGERPRINT to Build.DATE change
+1d62654726e8 base: use ro.build.date instead of fingerprint
+ba3f34d406a6 fw/b: Use ro.build.date to signal OTA upgrades
+94246eea17c4 Add Tethering and SystemUI to location indicator whitelist
+8b72cadfb96d Do not show location indicator for bluetooth package
+1a930cf1abe9 Support for device specific key handlers
+637232fda104 PackageManager: allow build-time disabling of components
+15ccf0f60065 SystemUI: Disable ringer button if alert slider is present.
+9cfb090bb122 Alert Slider: check for existing dialog before creating new
+630e0926a65b AlertSlider: Support slider actions without broadcast from device
+5839bd8bb37c Alert Slider: Add toggle to disable notifications [1/2]
+70c4fe24e9b5 AlertSlider: Update theme more swiftly
+bade817e35a7 AlertSlider: Prevent crash in case of incomplete broadcast
+9819c0796fbf fwb: AlertSlider: Add more resources
+b60fd0da8df6 fwb: AlertSlider: Fix layout for 180 rotation
+109cf8449204 fwb: AlertSlider: update resources
+3ac2e2f318e0 AlertSlider: refactor to reflect slider state
+853daf698004 Alert Slider: Improve layout
+26ff971f4c55 fwb: Alert slider: Use default position behaviour if position not specified in intent
+4b47f3c8ab97 fwb: Alert slider: Do not hardcode slider position based on ringer mode
+7054d33dd8f2 fwb: Alert slider: Work better with Key Handlers
+f9040d33ab11 SystemUI: Alert slider: Make tri-state SystemUI dialog dimensions conditional
+60dbb02f61dc SystemUI: Alert slider: Introduce user interface for Alert Sliders
+5417655bf519 PowerManager: Add proximity check on wake
+b4daf51dc7b8 Add config to exempt telephony-related app from location indicators
+87ce58423cf1 ColorUtils: Fix out-of-gamut Oklab blending
+16a620a5de13 AppErrors: Respect appsNotReportingCrashes for ANRs
+ad7b1586fe60 Revert "[DO NOT MERGE] Make sure WiFi and Cell tiles are not created in Provider Model"
+45d1f485f4c1 SystemUI: Expose legacy Wi-Fi and cellular data QS tiles
+cc65e7abd12f SystemUI: theme: Expose theme engine parameters as settings
+d27e424785b5 graphics: Blend ARGB colors using Oklab
+ef9a99a5f3d0 WallpaperColors: Use CIELAB for light/dark wallpaper detection
+1bc7e155a4ac ColorStateList: Switch to ZCAM for lightness modulation
+97ce5a3e0aef graphics: Add ZCAM implementation with sRGB interface
+af0546d2505a SystemUI: Update lock screen clock typography for Inter font
+55d526699afc SystemUI: Fix QS status font weight mismatch in dark mode
+063cd0437885 Paint: Enable subpixel text positioning by default
+3c0adbe3921a SystemUI: Remove nav bar background in QS customizer
+7f0a3f66e7c6 SystemUI: theme: Override modulated dark QS background color
+66fc48fc6f94 SystemUI: Add dual-tone light and dark themes for QS
+b6e0df722f38 SystemUI: Initialize QS tiles in inactive state
+c02ce7d0426c SystemUI: Follow light/dark theme in quick settings
+d0255170dc0e Revert "Do not re-inflate QS and SB when CONFIG_UI_MODE"
+5c3fa3a5f0e2 Revert "Make QS always use dark theme colors"
+3bb3735c96b8 SystemUI: Always refresh power menu on config change
+672ab1e3a562 SystemUI: Reduce scrim color animation duration to 375 ms
+1f03206dc7b1 PackageInfo: Optimize ApplicationInfo creation
+7f325030c39a enable secondary user logout support by default
+ee08337c907c SystemUI: theme: Log generated colors
+984553e81321 SystemUI: Use colorkt-based dynamic theme engine for Monet
+18950511314e SystemUI: Import TensorFlow Lite model for back gesture
+78cb77c45065 SystemUI: Add machine learning back gesture provider
+e5aaacc1118d SystemUI: Require unlocking to use sensitive QS tiles
+8c67cb9c5aca SystemUI: Fix uneven volume icon padding in status bar
+a748ef174bd5 ripple: Replace with Fluent Design-inspired ripple animation
+d8e97c9de8bd display: Render screen-off fade animation in linear sRGB space
+a1c0056412b8 display: ChromaticAdaptation: Fix matrix formatting in logs
+8bcc68e1803f display: ColorBalance: Add support for non-linear native color spaces
+4343dd782de9 display: Improve matrix formatting for easier debugging
+4e9208dcc339 display: Create common chromatic adaptation tint controller
+1d3136c1648e display: Use CAT16 for display white balance transform
+cc5155b7f30c graphics: Add CAT16 sensor space for chromatic adaptation
+9debc0e57aa6 display: Add simple RGB color balance transform
+12044d871e88 display: Make Night Light transition more gradual
+ae2a709bbc3e LayoutInflater: Opportunistically create views directly for performance
+c514936d57f4 SystemServiceRegistry: Replace ArrayMap with HashMap for performance
+77da1230c12a InsetsStateController: Replace ArrayMap with HashMap for performance
+8411c4a0c892 LocalServices: Replace ArrayMap with HashMap for performance
+3392b9cd2a9e ThemedResourceCache: Replace ArrayMap with HashMap for performance
+2b571a2ebb75 Trace: Disable debug tracing on production builds
+3baff24d9d7e increase default max password length to 64
+a01b5c99e47a SystemUI: Allow privileged system apps to access screenshot service
+c962ddb27b24 core: Expose method to start assistant through Binder
+010433b1d9ac core: Remove old app target SDK dialog
+2b2b5843a086 core: Remove default aspect ratio limit for old apps
+8973f5096b23 Show USB icon in notification instead of generic system icon
+6f6cc20c2124 Allow disabling USB notifications
+b31dfdec0281 Allow disabling important developer notifications
+e1d11eacce93 Deprioritize important developer notifications
+899148b48a9f SystemUI: Remove Android build number from QS footer
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+8bd54df1da Ensure deferred cleanup when display is off
+52e4c4ecdc Do not handle VSync event during resolution switch
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+252dd6a manifest: Track more forks for QTI BT
+
+* Repository: https://github.com/Evolution-X/packages_apps_Bluetooth/commits/refs/heads/snow
+
+0dd514ef6 AdapterService: Rework stubs for QTI APIs
+46dca3065 PAST feature implementation
+0be19878b Periodic Sync Feature implementation
+39a08d7b2 Bluetooth: Reset packages/apps/Bluetooth to upstream
+a30c57ffa Stub TWS related APIs
+963a8042d GAP: Reset bondingInitiatedLocally flag(2/3)
+49aaabaf1 BT: API to update quiet mode status in Adapter service [1/3]
+1c97ccf4b Add BLE Scan Phy parameter to scan API
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+3f5018ee74 Make Quick Unlock compatible with long PIN/Password [2/2]
+d4b93074cc Settings: Make PIN scramble user specific
+d4cd159ee5 Settings: Add extra changes for ChooseLockPatternSize
+d3d1a947fe Settings: Forward port lock pattern grid size
+0549da9b78 Settings: Forward port pattern visibility settings
+2a44a48b87 Keyguard: Forward port lockscreen quick unlock (2/2)
+c168a31e74 Add option to scramble pin layout when unlocking (1/2)
+7dbac21135 Settings: AppLockSettingsPC: call super class method if preference click is not handled
+fdfd34eafd Settings: applock: handle biometric prompt activity launch from preference controller
+4f999ab15a Settings: applock: allow opting out of biometrics [2/2]
+3ff2e42baf Settings: exclude app lock subsettings from recents
+61be3b50f4 Settings: applock: use property access syntax wherever applicable
+d84d5f0b38 Settings: add menu item to toggle app lock debugging
+1f79cfb542 Settings: introduce app lock [3/4]
+348605d282 Phone fails to switch channel mode from stereo to mono
+28af01e6c4 A2dpSrc: Bluetooth codec Dev-UI support for QVA codecs
+f05f142c73 bluetooth: update SavedBluetoothTwsDeviceUpdater for superclass ctor signature change
+7570114c71 Implement abstract method getPreferenceKey in SavedBluetoothTwsDeviceUpdater
+a3ad8f0ad4 BT: Use translated a2dp codec strings
+240f4590b9 A2dpSrc: DEV-UI support for Blutooth Audio codec.
+ebc3964883 Bluetooth-TWS: UI updates based on Filter matched
+c8e80ba804 Bluetooth-TWS: UI updates based on profile connection.
+8ea824cebb Fix build error
+4e86157894 Bluetooth-TWS: Filter TWS devices
+445adc6900 Bluetooth: Create new category for earbuds
+34d32d0f39 Phone ringtone setting for Multi SIM device [2/3]
+19609e455c Settings: allow disable of screenshot shutter sound [2/2]
+3a09880049 Settings: Add switch for linked ring and media notification volumes
+0b365068f8 Settings: VolumeMusicControl: Use new material-you illustration preference
+bf295faf92 Settings: Forward Port Volume Long Press Skip Tracks [2/2]
+7de75962f9 Settings: Add option to cycle through ringer modes [2/2]
+f655971279 AdaptivePlayback: Rename it to 'Smart Pause' to keep a better fluency
+5492873b1e Settings: Move "Adaptive Playback" option to Sound Settings.
+edd711c1e1 AdaptivePlayback: Add a intro text to the fragment
+e42fbd5cb4 Settings: Introduce Adaptive Playback [2/2]
+3d7b329bd8 Settings: Use new material-you illustration for 3-finger screenshot
+7fc95b282a Settings: Update Swipe to Screenshot preference
+1337e32e64 Settings: Add three-fingers-swipe to screenshot [2/2]
+354b8cae52 Settings: Add FastCharge preference into Battery settings
+76d2a2b997 Settings: Add permissions for lineagehw
+6f7132b89d Settings: Alter Smooth Display summary to match actual refresh rate
+231f976a77 Restore AOSP PeakRefreshRatePreferenceController
+b6381f94b2 Settings: Allow devices to disable minimum refresh rate
+dcbad38ebb Settings: Use actual default refresh rate
+11416bf46e Settings: Make 'Do not validate' string translatable
+5347c67663 Allow user to select low power refresh rate [2/2]
+f13900ca45 Settings: Add toggle for 60Hz refresh rate on battery saver
+a58f516e37 Settings: Add preference for maximum screen refresh rate
+423a415ad3 Settings: Add preference for KEY_MIN_REFRESH_RATE
+1dc865eca0 Settings: Add proximity check on wake preference
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+425efe4fe Incall vibration options [2/3]
+f1f416aa7 Phone ringtone setting for Multi SIM device [3/3]
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+d6d2d8796 BT: AIDL entry for Active Profile Control APIs
+7982fc011 Update Bluetooth permissions for VCP APIS (2/3)
+f527e4dbb VCP: AIDL changes for VCP Profile
+36726bfae le_manager: Adapt to QTI API changes
+4fe33941e DeviceGroup: Add new system API's to support Group UI.
+826fc4c90 Add broadcast active api
+18c990097 Update Bluetooth permissions for internal APIS. (3/4)
+5f739502d DeviceGroup: AIDL Interface changes for dual mode devices.
+22ab0daa6 DeviceGroup: AIDL Interface.
+46eb8d10e BLE Broadcast Isochronous channel support
+6ff42d7e2 A2dpSrc: Align legacy codec enumeration with AOSP(3/7)
+fe622970e Periodic Adv Sync Transfer feature support
+ba12bc004 bluetooth: select bluetooth modules by fully qualified namespace.
+162922898 GAP: Reset bondingInitiatedLocally flag(3/3)
+6c2189076 BLE: Group AD Type based filtering.
+334effae4 Add scan filter for Transport Discovery data
+b4dd2f749 TWS-A2DP: Add TWS+ codec index
+ad2cfb0fe BT: API to update quiet mode status in Adapter service [3/3]
+1adac3289 BT: Adding APTX-Adaptive codec to BT HAL
+b0d57f88a Add BLE Scan Phy parameter to scan API
+b928547ee Bluetooth: Add SDK API support for TWS feature (1)
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_bluetooth-commonsys-intf/commits/refs/heads/snow
+
+42b8d9d bt: allow TARGET_USE_QTI_BT_STACK to be overridden
+4ee8086 bt: Make FM false unless the device tree overrides.
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_bluetooth_ext/commits/refs/heads/snow
+
+5bb5b20 Merge tag 'LA.QSSI.12.0.r1-06400-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/bluetooth_ext into snow
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_packages_apps_Bluetooth/commits/refs/heads/snow
+
+ebe53fcc6 BLE Scanning: Receive the original address to onScanResults
+f2d8d4db2 Merge tag 'LA.QSSI.12.0.r1-06400-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/packages/apps/Bluetooth into snow
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+ce5fe34a5 BLE Scanning: Pass original address back to GattService#onScanResult
+5843f4b47 BLE Scanning: Force the APCF address type value to always be 0x02.
+4f9398055 Merge tag 'LA.QSSI.12.0.r1-06400-qssi.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/system/bt into snow
+
+
+=======================
+     2022/03/09
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+bdd25716d fixup - core: Add support for overriding build.prop settings
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+987d20b193 Explicitly initialise base class in copy constructor
+61c7b10a62 libstagefright: Free buffers on observer died
+bfc2913468 audiopolicy: support extended feature in audiopolicymanager
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+4154e8ae03a3 udfps: Allow devices to pulse onFingerDown instead of waking the screen
+13b65d616609 fwb: Add overlay for udfps vendor code
+69c41bee614d udfps: Add support for udfps on aod without having dedicated sensor
+9ae586c15553 SystemUI: Add HBM provider for UDFPS on Pixel devices
+aebae68a6644 SystemUI: Import Pixel display interfaces
+ea38a14663ea udfps: Implement default udfps hbm provider
+8f726c51468e UdfpsController: Call onFingerDown on action down events
+64d941d0f8de udfps: Allow to configure hbm overlay type
+1a47215c093e udfps: Change window type to TYPE_DISPLAY_OVERLAY
+0fc0cc4e0874 udfps: Make pressed udfp view configurable
+24378a051198 Remove navbar inset for UDFPS BiometricPrompt
+a64735ebab21 Workaround to support low-area UDFPS on BP
+71cae2cdffb1 Include saved battery history chunks into BatteryUsageStats parcel
+306563642d0d Fix concurrency issue with BatteryUsageStats
+955b514b1212 Fix NPE when AOSP ambient display preference is removed
+b38cc49c2303 UpdateEngine: Add perf mode binder interface
+6743a9917f04 Download: Add support to manually pause/resume download
+ebb6162e0584 base: Add stub files
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+52e4c4ecdc Do not handle VSync event during resolution switch
+34499ecc52 When user presses the power key while playing a local video, the surfaceflinger will crash.
+
+* Repository: https://github.com/Evolution-X/frameworks_opt_telephony/commits/refs/heads/snow
+
+75f591949 Restore support with RadioConfig@1.0 dsds clients.
+f9b79e03a Release wakelock if setRadioCapability is not supported
+c5e166e98 Update external card state based on current app
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+1d3565d94 Revert "Add show|hide udfps view callbacks to IBiometricsFingerprint@2.3 [2/2]"
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+4d59a29 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/manifest into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Bluetooth/commits/refs/heads/snow
+
+80b1487e4 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/apps/Bluetooth into snow
+
+* Repository: https://github.com/Evolution-X/packages_services_Telecomm/commits/refs/heads/snow
+
+045292115 CallLog: Get rid of warning
+
+* Repository: https://github.com/Evolution-X/system_bt/commits/refs/heads/snow
+
+fe1c2a291 Add option to change eSCO Transport Unit Size to 16
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+14f6556ee rootdir: Look for ODM & vendor ueventd entries in ETC too.
+
+* Repository: https://github.com/Evolution-X/system_security/commits/refs/heads/snow
+
+cb74124 keystore: Rate limit attestation for Google Play Services
+
+* Repository: https://gitlab.com/EvoX/vendor_gapps/commits/refs/heads/snow
+
+4a44e7c gms: Update trichrome
+
+
+=======================
+     2022/03/08
+=======================
+
+* Repository: https://github.com/Evolution-X/art/commits/refs/heads/snow
+
+bf580e9b7f Use the non-debug apex for userdebug builds
+d0182da8ed Disable JIT GC when JitAtFirstUse is enabled
+80449d38dd Restrict addressOf() API to non-movable primitive arrays
+0d33e3c310 art: Disable debug tracing on production builds
+6a9f87a982 optimization of gc load, reduce gc in some scenarios
+019fcf5828 Reland "Trigger fewer GCs during startup""
+e4dede8c78 Handle baseline/optimized compilation kind in the runtime.
+c5968dae28 ARM64: Implicit suspend checks using LDR.
+d36fae0b35 Remove unused code related to method entry / exit events
+fe22176ada Drop unused arguments for MethodEntered function
+dc6e591d70 Assign lower level to Small IRT table lock
+6bcefc1f9e Initially allocate smaller local IRT
+ced3bd364d Inline IRT frame push/pop into JNI stubs.
+c69256aa30 Simplify IRTEntry
+a5077a768c Remove all support for Brooks read barrier.
+e287b9f3b4 libprofile: Clear method bitmap padding bits.
+bd26477ec4 arm: Fix VarHandle.compareAndSet/long intrinsic...
+
+* Repository: https://github.com/Evolution-X/bionic/commits/refs/heads/snow
+
+e09bc6aa1 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/bionic into snow
+
+* Repository: https://github.com/Evolution-X/bootable_recovery/commits/refs/heads/snow
+
+332154ca Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/bootable/recovery into snow
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+6b93f23ac build: Restore MODULE_BUILD_FROM_SOURCE check to ifdef
+5deff8766 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/build into snow
+
+* Repository: https://github.com/Evolution-X/build_soong/commits/refs/heads/snow
+
+c7effd85b Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/build/soong into snow
+
+* Repository: https://github.com/Evolution-X/external_libcxx/commits/refs/heads/snow
+
+c38ecfa1a Make libc++fs vendor available and as a shared lib
+
+* Repository: https://github.com/Evolution-X/external_selinux/commits/refs/heads/snow
+
+463ae2e8 Revert "libsepol: Make an unknown permission an error in CIL"
+e5fec96e Automatically add macros to audit2allow output.
+f06059ad Add fixup.py to prebuilts.
+f4d1b4de secilc: Ignore empty mappings
+17a684ed selinux: add selinux_status_getenforce to header
+
+* Repository: https://github.com/Evolution-X/frameworks_av/commits/refs/heads/snow
+
+e7e964cb69 camera/media: Support legacy HALv1 camera in mediaserver
+adbae529da Camera: Master callback mode support for MCX raw
+3e6dc629b1 Camera: Support raw stream creation for priviledged APPs
+ca77b92340 camera: Workaround for GCC-compiled HAL3 drivers
+54ba89b676 libstagefright: Allow HFR-60 in HAL-3 recording
+fa936558ba Camera: Flush Improvements - Result drain optimization
+4062c92f52 Merge rest of privileged client camera stream bypass
+9d96813631 [fixup!] libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+ab92884778 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+aacbbe1db1 WifiDisplaySource: allow overriding max wfd resolution with prop
+79781c9c13 libcameraservice: Add support for miui camera mode
+e7bf3b2b4d libcameraservice: HAX for depth sensor on ginkgo [2/2]
+6ad3ee9c00 camera: Allow devices to load custom CameraParameter code
+f12d37696d libstagefright: Fix memory leak due to lock timeout
+0449368a61 camera: include: Don't override possible overlayed header
+fce1cefa4d libstagefright: Free buffers on observer died
+7e8fb4d119 stagefright: ACodec: Resolve empty vendor parameters usage
+96d1f3ddfd stagefright: omx: Don't signal dataspace change on legacy QCOM
+8a17dfca54 libstagefright: Support YVU420SemiPlanar camera format
+f2f9dc08c5 camera: Don't segfault if we get a NULL parameter
+fb34e92b0f nuplayer: Avoid crash when codec fails to load
+1d1d4fb901 av: disable some logspilling during playback
+d16e9a749f camera: Allow to use boottime as timestamp reference
+42f6482e74 Camera: Add support for preview frame fd
+947329019b libstagefright: use 64-bit usage for native_window_set_usage
+46e3966397 WifiDisplaySource: raise supported resolution to 1920x1080p60
+0e701f136c stagefright: add changes related to high-framerates in CameraSource
+86b5ce20ae audioflinger: Fix audio for WifiDisplay
+21242b5518 stagefright: Fix buffer handle retrieval in signalBufferReturned
+7d78e9e991 stagefright: Fix SurfaceMediaSource getting handle from wrong position issue
+ef9e38b5fc libstagefright_wfd: video encoder does not actually release MediaBufferBase when done
+bb9e57ea49 libstagefright_wfd: compilation fixes
+45cf3de67a Partial revert "Move unused classes out of stagefright foundataion"
+a11cd625a7 Revert "stagefright: remove Miracast sender code"
+fa8d7d6f6d Revert "Removed unused class and its test"
+f81f30d742 [2/2] av: Remove restrictions for system audio record
+
+* Repository: https://github.com/Evolution-X/frameworks_base/commits/refs/heads/snow
+
+31da95def699 base: Add Evolver category key
+49fa96e2f653 Add EVOLUTION metrics const.
+
+* Repository: https://github.com/Evolution-X/frameworks_native/commits/refs/heads/snow
+
+4fc6a29ee2 libgui: Dispatch vsync when receiving vsync timeout
+74e7b2807c Fixes ubsan shift-out-of-bounds SIGABRT
+0cbe53aa56 CompositionEngine: Request device composition for the Udfps touched layer
+d3371dfe7f InputDispatcher: allow to intercept a specific event key
+4e9be6f185 Minor cleanups.
+c9f0ffac1a libui: Allow extension of valid gralloc 1.0 buffer usage bits
+23ab943193 libbinder: Suppress log spam when unlinking death recipients
+ac2b5ccbe7 RenderEngine: Don't crash skiagl backend
+441bdef105 surfaceflinger: Add support for Udfps extension lib
+05fce75b67 sf: avoiding unnecessary frame skip to reduce janks.
+b44b113418 sf: Exclude VDS use of HWC on non-UM platforms
+4fb619ae33 SF: Fix HWC based virtual display creation
+7309844acf sf: Fix virtual display related issues.
+b3f738210c Add vendor version for libgui
+
+* Repository: https://github.com/Evolution-X/hardware_google_pixel/commits/refs/heads/snow
+
+c779325 pixel: Disable userdebug diagnostics
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+64c8120f1 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/hardware/interfaces into snow
+
+* Repository: https://github.com/Evolution-X/hardware_libhardware/commits/refs/heads/snow
+
+447713ea Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/hardware/libhardware into snow
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+543e166 Manifest for Android 12.1.0 Release 1
+
+* Repository: https://github.com/Evolution-X/packages_apps_Nfc/commits/refs/heads/snow
+
+7fa4b865 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/apps/Nfc into snow
+
+* Repository: https://github.com/Evolution-X/packages_apps_Settings/commits/refs/heads/snow
+
+defa2c5d98 Remove useless USB page header
+d8211d83f9 Settings: Battery: Make battery temp preference looks like others
+2e8dc1087f Battery: show battery temp on power summary
+f561d39a54 Settings: Revert bug report changes
+5e28da195d Settings: Added missing icons in network and internet menu
+ed0eed789c Settings: Use List Preference for Dark mode
+9788fecfbe Settings: Migrate interstitial encryption settings xml to NestedScrollView.
+cf52825930 Settings: Migrate encryption settings xml to NestedScrollView
+27c67c9e36 Settings: Disable Storage Manager.
+7c2a1f89d2 Settings: BluetoothDeviceDetailsFragment: fix edit menu icon tint
+effe0045fb Settings: Improve code for time spent in app
+0480a73431 fingerprint: hide link icon when there's no link
+96dbdbc7a1 Settings: Add LTE only setting
+60fe2de8fd Settings: Add missing android title for top_level_settings
+55c677dca3 NFC: Get outer NFC preference to listen for changes
+d4ba1a43d4 Drawables: Dark mode support for app installation restriction icon
+39cab1c603 Cache current context before creating a new user
+75d8f15b46 Settings: Import missing lottie swipe fingerprint from redfin
+b754848f29 Evolver: reorder preferences and cleanup for Android 12
+6aca4e9bce Settings: Fix invalid private DNS help text if URI is missing
+8e59ca2489 WifiDisplaySettings: Fix some NPE
+49a52d0c0e Settings: Hardcode moduleProvider to com.google.android.modulemetadata.
+141ecd56f9 display: Observe auto brightness mode changes
+f00bd82888 Settings: stop logspill from ProcessStats
+ea1dea8afa Settings: only set phone number if it's not empty
+19180a8e49 Settings: Whitelist WRITE_DEVICE_CONFIG permission
+f7fe4b2caf Don't change nouns in summaries to lower case for German
+b35b759112 Settings: use framework text colors for SwitchBar
+0d3d2c8cbd ProgressCategory: update title style for consistency
+1360ee71aa Settings: Drop custom preferenceFragmentCompatStyle
+9a141adfd3 Settings: Fix hardcoded black text in storage summary
+2d50355eb0 Settings: Switch to VERSION.INCREMENTAL instead of FINGERPRINT
+24efc9071a Settings: Set device name from marketname if available
+82da630626 Settings: Show About phone instead of Android version in header
+21b91df535 Settings: Add missing icons in Network and Internet
+b17358b149 Settings: Add drawable for Private DNS
+d6882b6f47 NetworkProviderSettings: Prevent Wifi Manager NPE
+6a5c7708a8 Revert "[Wi-Fi] Remove 'Do not validate' option in CA certificate spinner"
+d2f90ded8e Settings: OverlayCategoryPreferenceController: Sort overlays by name
+884af13394 AppInfo: Add time spent in app from Wellbeing
+caae46b3a4 Settings: Bring in missing lottie animations
+66c0d6709d SystemUpdatePreferenceController: Refactor for Evolution X Updater
+249323351e Settings: Don't show module version if isn't a date
+10c6266397 Settings: Use MD2 icon for Playstore
+2939a644af Settings: disable FLAG_WINDOW_IS_OBSCURED check in accessibility
+b38ee027c1 Settings: Convert AnimationScalePreference to CustomDialogPreferenceCompat
+84b2572387 Settings: AnimationScale: Fix force close when not using english
+9bfc6abd0f Settings: Use seekbar to allow setting arbitrary animation values
+5c9fc303b7 Settings: Enable gesture settings
+25aa01d1e7 InstalledAppDetails: fix refreshing storage summary after force stop
+2820f39401 Settings: Add custom pref for devices with custom doze packages
+3928413188 Disable notification channel warnings by default
+a172e34957 InstalledApp: show link to Google Play
+d1546244c9 Settings: Add missing gesture and battery animations
+80d5bf37fe Notification log improvements
+c77aabeffd Expose the notification log
+cb8b25f763 DisplaySettings: font size in 5% steps from 80% to 130%
+b2dfbecc38 Add back arrow to Desktop backup password
+233b818e1b QS dev tiles: Don't set them to active area
+71524f1035 Settings: Check if we have any color modes declared in overlay
+f2dcf0e0ce WiFi: Remove country code checking.
+4cc19596db Settings: Show current value of color balance sliders
+4da0458d8c Settings: Hide unsupported USB modes automatically
+2f7801c045 Settings: Add back SELinux info
+6c20cac32a Settings: Integrate The Evolver into Settings
+262eb4f419 Settings: Add Build maintainer entry to Firmware version window
+0c73aece40 Settings: Add Build date entry to Firmware version window
+6879c96828 Settings: Add Evolution X Version to Firmware version window
+34b9b781cf Settings: Make ROM banner clickable
+5516de4df1 Add sliders for color balance adjustment via ColorDisplayManager
+e403037ed4 Unlock mobile network settings when airplane mode is on
+b6d16e86f5 Launch APN settings on main activity stack
+1adfc2a7a5 Expand abbreviation in average memory usage string
+35a666971a Settings: Add platform and RAM to Model & Hardware
+30ec659d22 Settings: Allow sorting Applications by size
+6053d52f21 Settings: Add config for SuggestionServiceComponent
+c2972419e8 Show user's Google avatar on the homepage
+83f7cb2819 DevelopmentSettings: Remove system update and other prefs
+7aee53506f Open app when clicking on icon in App Info
+aa0855f64e Toast insulter: Add more insults
+e9eeb9bb13 Developer options toast insulter
+594253d53d Make kernel version clickable
+d4aadb6e14 Settings: Change kernel preference behavior
+ab8d921cc7 Settings: Show full proc/version information
+57babe9640 Add package name to installed app details
+2f7da8e0df Fix inconsistent USB preference screen title
+32d8b14340 Enable FeatureFlags on "user" builds too
+5adc8e2a0b BasebandVersionPreferenceController: Trim baseband if needed
+281d451891 About: Add Evolution X logo inside firmware version
+
+* Repository: https://github.com/Evolution-X/packages_apps_SettingsIntelligence/commits/refs/heads/snow
+
+c9b167b Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/apps/SettingsIntelligence into snow
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+92879a2e Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into snow
+
+* Repository: https://github.com/Evolution-X/packages_providers_MediaProvider/commits/refs/heads/snow
+
+3f7f01cb Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/providers/MediaProvider into snow
+
+* Repository: https://github.com/Evolution-X/packages_services_Telephony/commits/refs/heads/snow
+
+231a6c829 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/packages/services/Telephony into snow
+
+* Repository: https://github.com/Evolution-X/system_core/commits/refs/heads/snow
+
+b745d3e59 llkd: Include llkd-debuggable.rc in eng builds only
+dcf4c2c51 init: mount_handler: detect main block device more reliably
+f85d186fc init.rc: use /sys/class/block instead of /sys/devices/virtual/block
+5103a8c95 init: fix to set sd device label correctly for FS
+8bf37c5ec init: Set persist.sys.usb.config properly
+542b832d8 Revert "Format formattable partitions if mount fails"
+0a276dc31 init: Add more properties to spoof.
+b913d095e init: Report valid verified boot for SafetyNet checks
+7401ee60f init.rc: Disable native stats collection service
+e0a21c733 init.rc: don't start console unless asked to
+bf08765b7 camera: Add L-compatible camera feature enums
+f41f17af0 init: always allow local.prop overrides
+c7b92e146 Set permissions on /system/addon.d/ and files within.
+69006c9d0 Set /system/etc/init.d/* permissions
+81e8b453b init: Weaken property override security for the init extension
+61bbbdb24 remount: Fix failure for system-as-root
+a4c93db56 fastboot: Revert to Android 11 method of checking lock status
+2a9bdd4b2 Add exfat utilities for mkfs and fsck
+82cb8fc0f Camera: Add feature extensions
+6803029c6 init: don't skip starting a service with no domain if permissive
+0e62fc456 healthd: Add DASH charger type
+464bc5a32 healthd: Add support for HVDCP_3P5 chargers
+8b78261ee healthd: Reinitialize mChargerNames for every battery update
+1a32a1c23 healthd: Add support for HVDCP_3 chargers
+e095a3d29 init: Convert evolution product variables to soong config variables
+cf400c5c2 init: Add vendor-specific initialization hooks.
+
+* Repository: https://github.com/Evolution-X/system_media/commits/refs/heads/snow
+
+8a062970 Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/system/media into snow
+
+* Repository: https://github.com/Evolution-X/system_sepolicy/commits/refs/heads/snow
+
+46eb7b86e Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/system/sepolicy into snow
+
+* Repository: https://github.com/Evolution-X/system_update_engine/commits/refs/heads/snow
+
+7a2bd0d1 update_engine: Remove any (stale) read-only flag before r/w mount of system
+ea630a2d Don't verify payload signatures in recovery
+c93a4ca1 update_engine: Transition to backuptool domain
+37c648f1 update_engine: Run backuptool script before normal postinstall script
+706261c3 update_engine: Add performance mode
+590077f3 update_engine: put update_engine into background sched group
+
+* Repository: https://github.com/Evolution-X/system_vold/commits/refs/heads/snow
+
+c7252eb Merge tag 'android-12.1.0_r1' of https://android.googlesource.com/platform/system/vold into snow
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+98302e85 evolution: apex: Update from SP2A.220305.012
+6c81389c evolution: CarrierSettings: Update from SP2A.220305.012
+c687c461 evolution: rro_overlays: Update from SP2A.220305.012
+
+
+=======================
+     2022/03/07
+=======================
+
+
+=======================
+     2022/03/06
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+51aee0f5 evolution: apns: update Telenor Mobilsurf
+
+
+=======================
+     2022/03/05
+=======================
+
+
+=======================
+     2022/03/04
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+260fa024e releasetools: Fallback to calculated fp if partition fp is missing
+
+
+=======================
+     2022/03/03
+=======================
+
+* Repository: https://github.com/Evolution-X/build/commits/refs/heads/snow
+
+a56458561 build: Respect fs_config when generating recovery ramdisk
+
+* Repository: https://github.com/Evolution-X/hardware_interfaces/commits/refs/heads/snow
+
+5737a2f31 wifi: Add provision to create/remove dynamic interface(s).
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+ce0bbb5 Evolver: Override VoLTE icon with VoWiFi when available [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+9b2ed1f Bump Updates app version code
+1ef9ab5 New Crowdin updates (#39)
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+623bce8 New Crowdin updates (#2)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+05f3e071 vendor: Check signed status via flag instead
+d781104c SystemUIGoogleOverlay: Adjust default QS tiles
+f0ff35dc vendor: Import PixelDocumentsUIGoogleOverlay
+37885279 vendor: Add overlay for enabling Now Playing
+5e975936 rro_overlays: Move NavigationBarModeGesturalOverlayFS directory
+2b9e2581 prebuilt: import themeicons overlay from octavi
+
+
+=======================
+     2022/03/02
+=======================
+
+* Repository: https://github.com/Evolution-X/external_sqlite/commits/refs/heads/snow
+
+c04b351 Fix parameter checking logic error in tokenize
+240626d dist: Tune flags according to sqlite documentation
+
+* Repository: https://github.com/Evolution-X/manifest/commits/refs/heads/snow
+
+e432216 manifest: Track our own fork of external/sqlite
+d5535b9 manifest: Track external/openssh from ProtonAOSP
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+8120e6e Evolver: Arrange Edge lightning color modes correctly
+c5e6bff Evolver: Add device controls shortcut to power menu [2/2]
+093a231 Evolver: Hide LED section for unsupported devices
+19dfbb9 Evolver: Implement click to take partial screenshot [2/2]
+4377d75 Evolver: Update config naming conventions [2/2]
+fda70a8 Evolver: Enable VoLTE/VoWiFi icons by default [2/2]
+e2f421e Evolver: Disable Lockscreen Pulse by default [2/2]
+
+* Repository: https://github.com/Evolution-X/packages_resources_devicesettings/commits/refs/heads/snow
+
+abe02cd New Crowdin updates (#1)
+dfe3a94 Automatic translation import
+8132bf1 Update Crowdin configuration file
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+2bc3975d evolution: apns: Update 'wholesale' APNs
+951f41ee evolution: apns: Drop I-Wireless APN
+ddbd8e15 evolution: apns: Update Net10 APNs
+b33433d1 evolution: apns: Drop Solavei
+140b6998 evolution: Update U.S. T-Mobile APNs and add DUN tethering
+
+
+=======================
+     2022/03/01
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+1474e70 New Crowdin updates (#184)
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+d3082b4a config: Remove duplicate PRODUCT_MINIMIZE_JAVA_DEBUG_INFO
+
+
+=======================
+     2022/02/28
+=======================
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+9e8ec2d6 tasks: Guard unsigned
+27760ba6 config: Add property to indicate signed/unsigned
+bd106285 tasks & tools: Fix-up
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_bluetooth_ext/commits/refs/heads/snow
+
+eccf01a Merge fa2bcc990ceffe4a1ba37f2b094f5d02dceb4005 on remote branch
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_packages_apps_Bluetooth/commits/refs/heads/snow
+
+eca695927 Merge 764ab48c0858414bcfc2d34e9847624adcae8228 on remote branch
+
+* Repository: https://github.com/Evolution-X/vendor_qcom_opensource_system_bt/commits/refs/heads/snow
+
+b17730bed Merge 13b79d2084cf93618afedbdb0993fc4ec8bb71d7 on remote branch
+
+
+=======================
+     2022/02/27
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+34df18f Add unsigned check
+a187381 Add changelog button
+c73583c Revert "Updater: Convert to blueprint"
+
+* Repository: https://github.com/Evolution-X/vendor_evolution/commits/refs/heads/snow
+
+41a05cc3 tools: Do not create changelog if the folder does not exist
+01781cd9 tasks: Add changelog creation to tasks
+8ed06393 tools: Use AOSP env var for out directory
+d3852049 tools: Improvement to the changelog script
+18f6d141 Revert "tools: Nuke changelog"
+
+
+=======================
+     2022/02/26
+=======================
+
+* Repository: https://github.com/Evolution-X/packages_apps_Evolver/commits/refs/heads/snow
+
+30e0580 New Crowdin updates (#183)
+90f6e88 [SQUASH] Clean up some commits
+
+* Repository: https://github.com/Evolution-X/packages_apps_GamingMode/commits/refs/heads/snow
+
+1a76247 New Crowdin updates (#7)
+
+* Repository: https://github.com/Evolution-X/packages_apps_Updates/commits/refs/heads/snow
+
+4f5f370 New Crowdin updates (#37)
+
+* Repository: https://github.com/Evolution-X/packages_providers_DownloadProvider/commits/refs/heads/snow
+
+e41379c6 New Crowdin updates (#9)
+
+
