@@ -1,0 +1,9 @@
+Updated to April SP
+Updated kernel to Latest source - v4.14.275
+Enabled Adoptive charging
+Better Magisk hide for Banking apps
+Updated Media and Display HALs to latest CAF Tag
+Enabled Qualcomm TrueWireless Stereo
+Improved Cache handling
+Fixed Saturated Display issue with HDR
+ETC..
