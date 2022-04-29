@@ -1,0 +1,11 @@
+Based On EvolutionX Snow-v2-6.3
+Updated Kernel to 2.14.277
+Updated CAF Tags
+Improved FaceUnlock Screen
+Improved Zram 
+Improved Battery Backup
+Added New OnePlus Extras with alot of new Features
+Based On OSS 11.0.7.1
+Updated USB HAL
+Improved Notification Audio
+ETC...
