@@ -1,0 +1,11 @@
+ChangeLogs:
+Fix wakeup sepolicy issues
+Improved hotword mic concurrency
+Updated kernel to v4.14.281
+improved APEX proformance
+Switch to for product CPU varient
+Improved Earpiece notification channel mask
+Fixed MTP Issue
+Improved overall proformance of device
+* Specially Thanks to people who donated me for server *
+Jesse Essej, Maurizio Cecchini, Giuseppe Borzi, Noam Harel, Rudi Pittman, Dave Meyar
