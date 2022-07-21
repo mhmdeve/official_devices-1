@@ -26,4 +26,4 @@ Increased dalvik-heap to 6GB
 Improved Wifi Speed
 Turn OFF off-screen FingerPrint Scanning
 ETC..
-Thanks to Tester @Mo7amedGom3a 
+Thanks to Tester @Frank_Nero3, @Mo7amedGom3a

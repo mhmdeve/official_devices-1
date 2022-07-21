@@ -1,0 +1,4 @@
+Fixed volume control
+Fixed alert Slider issues
+Added new Alert slider customizations in OnePlus Settings
+Fixed annoying Audio Error toast
