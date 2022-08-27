@@ -1,0 +1,11 @@
+Probably Fixed battery drain
+Updated Adreno Blobs from OOS12
+Optimized Audio experience
+Improved Tounch response
+Updated kernel stuff
+Fixed OMX crashing
+Nuked Snap Camera
+Improved BT experience
+Improved FOD
+Based on Latest EVO Source
+ETC...
