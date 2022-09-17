@@ -1,0 +1,9 @@
+Switch to OnePlus Dolby
+Patched dolby to show in Launcher
+Fixed Video Lag issues on Social Media apps
+Improved Audio Output
+Improved Bluetooth Experience
+Enabled media drm services
+Changed FOD Color to Green
+Improved FOD Speed
+HDR Improvement
