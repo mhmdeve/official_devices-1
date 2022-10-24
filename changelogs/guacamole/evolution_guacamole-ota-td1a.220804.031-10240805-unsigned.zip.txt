@@ -1,0 +1,5 @@
+Few devices fixes 
+Fingerprint to oos12
+Updated graphics blobs
+Added Neptune kernel
+Implement new FOD
