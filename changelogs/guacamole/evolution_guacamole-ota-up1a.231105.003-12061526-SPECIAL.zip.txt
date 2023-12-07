@@ -1,0 +1,6 @@
+Based on latest EVO Source
+Fix Shutter in video Playback
+Fixed Ril issues
+Improved Graphics props
+
+Note: Disable blur from Display Settings is face any lag.
