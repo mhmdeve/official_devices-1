@@ -1,0 +1,3 @@
+Added OnePlus Dolby
+Updated to latest EvoX Source
+Few other fixes
