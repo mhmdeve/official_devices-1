@@ -1,0 +1,7 @@
+Improved Video Playback
+Added OnePlus Weather, Calculator, FileManager from OOS13 Thanks to @AyraProject for ports
+Added Improved FOD
+Based on latest source
+Disable display refresh rate override
+Improved Bluetooth
+Updated Graphics blobs
