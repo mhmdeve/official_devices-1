@@ -1,0 +1,4 @@
+Fixed Few more Video Playback Issues
+Updated Adreno blobs to 3.2 V@744.6 (10/26/23)
+Improved HDR and Color Engine
+
