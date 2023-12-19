@@ -1,0 +1,4 @@
+Added back AI Wallpapers
+Updated Adreno Drivers from OOS12
+Fixed Video Latch buffer issue (Video Play should be more smooth)
+Few Other kernel Improvements
