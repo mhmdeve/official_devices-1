@@ -1,0 +1,6 @@
+Switch to Perf kernel
+Fixed Shutter in Media
+Fixed FP delay you will definatly feel diffference
+Replaced Dolby with ViperFX (Dolby is so unstable)
+Fixed Faceunlock Animation on Lockscreen
+
