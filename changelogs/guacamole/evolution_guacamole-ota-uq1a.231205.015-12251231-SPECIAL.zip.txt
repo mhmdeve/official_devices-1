@@ -1,0 +1,5 @@
+Update FileManager from ASUS
+Update Adreno Drivers
+Fix Media Playback in browsers
+Fixed few more issues
+Sync to Latest EVO source
