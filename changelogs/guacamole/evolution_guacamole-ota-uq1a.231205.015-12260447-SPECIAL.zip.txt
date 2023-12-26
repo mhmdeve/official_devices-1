@@ -1,0 +1,6 @@
+Use phase offsets as duration.
+Disable SF composition prediction model
+Disable QCOM system daemon (Useless)
+Disable QCOM system daemon (debug.sf.latch_unsignaled - This causes SurfaceFlinger to latch)
+Add new CAF display props for sm8150
+
