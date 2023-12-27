@@ -1,0 +1,4 @@
+Added New OTA Updater with Local Update
+Switch back to Previous Kernel (Smoother then ever)
+Fixed Few Sepolicy issues
+many more changes but lazy to mention
